@@ -1,0 +1,51 @@
+/*Inicio do Mobile*/
+
+body{
+    background: #020406;
+}
+
+.erro404_page_desktop{
+    display: none;
+}
+
+.erro404_page_mobile{
+    display: flex;
+    flex-direction: column;
+    background-color: #132634;
+    border-radius: 10px;
+    width: 93%;
+    margin: 75px 3.5% 0 3.5%;
+    justify-content: center;
+}
+
+/*Final do Mobile*/
+
+
+
+
+/*Inicio do Desktop*/
+
+@media (min-width: 769px) {
+
+    .erro404_page_mobile{
+        display: none;
+    }
+    
+    body{
+        background-image: url(../img/img_header.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+    }
+    
+    .erro404_page_desktop{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(41, 41, 41, 0.699);
+        margin: 10vw 8vw 0 8vw;
+        padding: 1.5vw 2vw;
+    }
+
+    /*Final do Desktop*/
+
+}

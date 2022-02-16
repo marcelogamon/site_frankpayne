@@ -1,0 +1,157 @@
+/*Inicio do Mobile*/
+
+body{
+    background: #020406;
+}
+
+.livros_page_desktop{
+    display: none;
+}
+
+.livros_page_mobile{
+    display: flex;
+    flex-direction: column;
+    background-color: #132634;
+    border-radius: 10px;
+    width: 93%;
+    margin: 75px 3.5% 0 3.5%;
+    justify-content: center;
+}
+
+.livros_container_mobile{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.livros_container_mobile > h1{
+    color: #FFFFFF;
+    font-size: 6vw;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding: 0 15px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+#img_livros_mobile{
+    width: 30vw;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+#span_mobile{
+    color: #FFFFFF;
+    font-size: 4.3vw;
+    font-weight:lighter;
+    text-align: justify;
+    margin: 0px 0 20px 0;
+    padding: 0 25px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+/*Final do Mobile*/
+
+
+
+
+/*Inicio do Desktop*/
+
+@media (min-width: 769px) {
+
+.livros_page_mobile{
+    display: none;
+}
+
+body{
+    background-image: url(../img/img_header.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+.livros_page_desktop{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(41, 41, 41, 0.699);
+    margin: 10vw 8vw 0 8vw;
+    padding: 1.5vw 2vw;
+}
+
+.livros_container_desktop{
+    display: flex;
+    flex-direction: column;
+}
+
+.livros_container_desktop > h1{
+    color: #FFFFFF;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.livros_container_desktop > h3{
+    color: #FFFFFF;
+    font-size: 1.5vw;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.separacao_lados_desktop{
+    display: flex;
+    flex-direction: row;
+}
+
+.lado_esquerdo_desktop{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+#img_livros_desktop{
+    width: 15vw;
+    align-self: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+.lado_direito_desktop{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+h4{
+    color: #FFFFFF;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+/*Final do Desktop*/

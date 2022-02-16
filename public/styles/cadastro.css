@@ -1,0 +1,496 @@
+/*Inicio do Mobile*/
+
+.cadastro_page_desktop{
+    display: none;
+}
+
+body{
+    background: #020406;
+}
+
+.cadastro_page_mobile{
+    display: flex;
+    flex-direction: column;
+    background-color: #132634;
+    border-radius: 10px;
+    width: 93%;
+    margin: 75px 3.5% 0 3.5%;
+    justify-content: center;
+}
+
+.cadastro_container_mobile{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.cadastro_container_mobile > h1{
+    color: #FFFFFF;
+    font-size: 6vw;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 0px 0px 21px rgb(0, 0, 0);
+}
+
+.cadastro_container_mobile > h3{
+    color: #FFFFFF;
+    font-size: vw;
+    font-weight:lighter;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+    text-shadow: 0px 0px 21px rgb(0, 0, 0);
+}
+
+#form_box_mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form_mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 3.8vw;
+}
+
+#cadastro_nomes_mobile{
+    display: flex;
+    flex-direction: row;
+    width: 93%;
+    align-self: center;
+}
+
+#name_mobile{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-right: 10px;
+}
+
+.field_cadastro_nome_mobile{
+    border-radius: 20px;
+    height: 27px;
+    padding-left: 7px;
+}
+
+#birth_mobile{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.field_cadastro_nascimento_mobile{
+    border-radius: 20px;
+    height: 27px;
+    padding-left: 7px;
+    text-align: center;
+}
+
+#lastName_mobile{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.field_cadastro_sobrenome_mobile{
+    border-radius: 20px;
+    height: 27px;
+    padding-left: 7px;
+}
+
+#telefone_completo_mobile{
+    display: flex;
+    flex-direction: row;
+    width: 93%;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#usuario_mobile{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    text-align: left;
+    margin: 0 5vw 0 0;
+}
+
+.field_cadastro_usuario_mobile{
+    border-radius: 20px;
+    height: 27px;
+    text-align: left;
+    padding-left: 7px;
+}
+
+
+#dddPhone_mobile{
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    text-align: center;
+}
+
+.field_cadastro_ddd_mobile{
+    border-radius: 20px;
+    height: 27px;
+    text-align: left;
+    padding-left: 13px;
+}
+
+#tel_mobile{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.field_cadastro_telefone_mobile{
+    border-radius: 20px;
+    height: 27px;
+    text-align: left;
+    padding-left: 9px;
+}
+
+#email_mobile{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.field_cadastro_email_mobile{
+    border-radius: 20px;
+    height: 27px;
+    padding-left: 7px;
+}
+
+#password_mobile{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.field_cadastro_senha_mobile{
+    border-radius: 20px;
+    height: 27px;
+    padding-left: 7px;
+}
+
+
+.btn_cadastro_mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.cadastro_submit_mobile{
+    border-radius: 30px;
+    background-color: #d4af37 ;
+    width: 60%;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: 0px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 5vw;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+
+.footer_mobile{
+    position: absolute;
+    background-color: none;
+    width: 100%;
+    margin-bottom: 5px;
+    bottom: 0;
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.footer_mobile > h4{
+    color: #FFFFFF;
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+
+/*Final do Mobile*/
+
+
+
+
+
+
+/*Inicio do Desktop*/
+
+@media (min-width: 769px) {
+
+
+.cadastro_page_mobile{
+    display: none;
+}
+
+.cadastro_page_desktop{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/img_login_baixo_desktop.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 7.5vw;
+}
+
+.cadastro_bloco_desktop{
+    display: flex;
+    flex-direction: column;
+    background-color: #132634a1;
+    border-radius: 10px;
+    width: 30%;
+    margin: 1vw 0 1vw 0;
+    align-self: center;
+}
+
+#form_box_desktop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cadastro_container_desktop{
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0;
+}
+
+.cadastro_container_desktop > h1{
+    color: #FFFFFF;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.cadastro_container_desktop > h3{
+    color: #FFFFFF;
+    font-size: 1.5vw;
+    font-weight: lighter;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.form_desktop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 1vw;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+
+}
+
+#cadastro_nomes_desktop{
+    display: flex;
+    flex-direction: row;
+    width: 93%;
+    align-self: center;
+}
+
+#name_desktop{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-right: 10px;
+}
+
+.field_cadastro_nome_desktop{
+    border-radius: 20px;
+    height: 27px;
+    padding-left: 7px;
+    font-size: 1vw;
+}
+
+#birth_desktop{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.field_cadastro_nascimento_desktop{
+    border-radius: 20px;
+    height: 27px;
+    padding-left: 7px;
+    text-align: center;
+    font-size: 1vw;
+}
+
+#lastName_desktop{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.field_cadastro_sobrenome_desktop{
+    border-radius: 20px;
+    height: 27px;
+    padding-left: 7px;
+    font-size: 1vw;
+}
+
+#telefone_completo_desktop{
+    display: flex;
+    flex-direction: row;
+    width: 93%;
+    align-self: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#usuario_desktop{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    text-align: left;
+    margin-right: 15px;
+}
+
+.field_cadastro_usuario_desktop{
+    border-radius: 20px;
+    height: 27px;
+    text-align: left;
+    padding-left: 0.6vw;
+    font-size: 1vw;
+}
+
+#dddPhone_desktop{
+    display: flex;
+    flex-direction: column;
+    width: 5vw;
+    text-align: center;
+}
+
+.field_cadastro_ddd_desktop{
+    border-radius: 20px;
+    height: 27px;
+    text-align: center;
+    font-size: 1vw;
+}
+
+#tel_desktop{
+    display: flex;
+    flex-direction: column;
+    width: 7.5vw;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.field_cadastro_telefone_desktop{
+    border-radius: 20px;
+    height: 27px;
+    text-align: left;
+    padding-left: 7.5px;
+    font-size: 1vw;
+}
+
+#email_desktop{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.field_cadastro_email_desktop{
+    border-radius: 20px;
+    height: 27px;
+    padding-left: 0.6vw;
+    font-size: 1vw;
+}
+
+#password_desktop{
+    display: flex;
+    flex-direction: column;
+    width: 93%;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.field_cadastro_senha_desktop{
+    border-radius: 20px;
+    height: 27px;
+    padding-left: 0.6vw;
+    font-size: 1vw;
+}
+
+.btn_cadastro_desktop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.cadastro_submit_desktop{
+    border-radius: 30px;
+    background-color: #d4af37 ;
+    width: 40%;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: 0px;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 1.4vw;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.cadastro_submit_desktop:hover{
+    transition: all 0.3s;
+    background-color: #f9a109de ;
+}
+
+}
+
+/*Final do Desktop*/

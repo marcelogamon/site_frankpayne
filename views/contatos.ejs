@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/contatos.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <title>Frank Payne</title>
+</head>
+
+<%- include('./header.ejs') %>
+
+<body>
+
+<main>
+
+<!--Inicio do Mobile-->
+
+<div class="contato_page_mobile">
+
+    <div class="contato_container_mobile">
+        <form id="form_box_mobile" data-form method="POST">
+            <div class="contato_container_mobile">
+                <h1>Gostaria de nos mandar uma mensagem?</h1>
+                <img id="img_contato_mobile" src="../img/contato2.png">
+                <h3>Utilize o formulário abaixo para enviar seus comentários diretamente para o autor, tirar dúvidas, relatar problemas ou então sugerir melhorias. Ficaremos felizes em falar com você!</h3>
+
+                <div class="form_mobile">
+                    <div id="contato_nomes_mobile">
+                        <div id="name_mobile">
+                            <label for="name">Digite seu Nome</label>   
+                            <input id="field_contato_nome_mobile" data-name="" type="text" placeholder="Frank" name="name" required>
+                        </div>
+                    </div>
+                    
+                    <div id="lastName_mobile">
+                        <label for="lastName">Digite seu Sobrenome</label>   
+                        <input id="field_contato_sobrenome_mobile" data-lastName="" type="text" placeholder="Payne" name="lastName" required>
+                    </div>
+
+                    <div id="email_mobile">
+                        <label for="email">Seu Email</label>   
+                        <input id="field_contato_email_mobile" data-email="" type="email" placeholder="contato@frankpayne.com.br" name="email" required autocomplete="email">
+                    </div>
+                    
+                    <div id="mensagem_mobile">
+                        <label for="message">Mensagem</label>   
+                        <textarea rows="4" cols="50" id="message" name="message" placeholder="Digite aqui sua mensagem"></textarea>
+                    </div>
+                </div>
+
+                <div class="btn_contato_mobile">
+                    <button id="contato_submit_mobile" data-button="" type="submit">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!--Final do Mobile-->
+
+
+<!--Inicio do Desktop-->
+
+<div class="contato_page_desktop">
+
+    <div class="separacao_lados_desktop">
+        <div class="lado_esquerdo_desktop">
+            <img id="img_contato_desktop" src="../img/contato2.png">
+        </div>
+        
+        <div class="lado_direito_desktop">
+
+            <form id="form_box_desktop" data-form method="POST">
+                <div class="contato_container_desktop">
+                    <h1>Gostaria de nos mandar uma mensagem?</h1>
+                    <h3>Utilize o formulário abaixo para enviar seus comentários diretamente para o autor, tirar dúvidas, relatar problemas ou então sugerir melhorias. Ficaremos felizes em falar com você!</h3>
+
+                    <div class="form_desktop">
+                        <div id="contato_nomes_desktop">
+                            <div id="name_desktop">
+                                <label for="name">Digite seu Nome</label>   
+                                <input id="field_contato_nome_desktop" data-name="" type="text" placeholder="Frank" name="name" required>
+                            </div>
+                            <div id="lastName_desktop">
+                                <label for="lastName">Digite seu Sobrenome</label>   
+                                <input id="field_contato_sobrenome_desktop" data-lastName="" type="text" placeholder="Payne" name="lastName" required>
+                            </div>
+                        </div>
+
+                        <div id="email_desktop">
+                            <label for="email">Seu Email</label>   
+                            <input id="field_contato_email_desktop" data-email="" type="email" placeholder="contato@frankpayne.com.br" name="email" required autocomplete="email">
+                        </div>
+                        
+                        <div id="mensagem_desktop">
+                            <label for="message">Mensagem</label>   
+                            <textarea rows="4" cols="50" id="field_contato_mensagem_desktop" name="message" placeholder="Digite aqui sua mensagem"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="btn_contato_desktop">
+                        <button id="contato_submit_desktop" data-button="" type="submit" value="Send Message">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--Final do desktop-->
+
+<script src="../javascripts/sendMail.js"></script>
+
+</main>
+
+</body>
+
+<%- include('./footer.ejs') %>
+
+</html>

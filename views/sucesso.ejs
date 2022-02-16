@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/sucesso.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <title>Frank Payne</title>
+</head>
+
+<%- include('./header.ejs') %>
+
+<body>
+
+<main>
+
+<!--Inicio do Mobile-->
+
+<div class="sucesso_page_mobile">
+
+    <div class="sucesso_container_mobile">
+        <form id="form_box_mobile" data-form method="POST">
+            <div class="sucesso_container_mobile">
+                <h1>Gostaria de nos mandar uma mensagem?</h1>
+                <img id="img_sucesso_mobile" src="../img/sucesso2.png">
+                <h3>Utilize o formulário abaixo para enviar seus comentários diretamente para o autor, tirar dúvidas, relatar problemas ou então sugerir melhorias. Ficaremos felizes em falar com você!</h3>
+
+                <div class="form_mobile">
+                    <div id="sucesso_nomes_mobile">
+                        <div id="name_mobile">
+                            <label for="name">Digite seu Nome</label>   
+                            <input id="field_sucesso_nome_mobile" data-name="" type="text" placeholder="Frank" name="name" required>
+                        </div>
+                    </div>
+                    
+                    <div id="lastName_mobile">
+                        <label for="lastName">Digite seu Sobrenome</label>   
+                        <input id="field_sucesso_sobrenome_mobile" data-lastName="" type="text" placeholder="Payne" name="lastName" required>
+                    </div>
+
+                    <div id="email_mobile">
+                        <label for="email">Email</label>   
+                        <input id="field_sucesso_email_mobile" data-email="" type="email" placeholder="sucesso@frankpayne.com.br" name="email" required autocomplete="email">
+                    </div>
+                    
+                    <div id="mensagem_mobile">
+                        <label for="message">Mensagem</label>   
+                        <textarea rows="4" cols="50" id="message" name="message" placeholder="Digite aqui sua mensagem"></textarea>
+                    </div>
+                </div>
+
+                <div class="btn_sucesso_mobile">
+                    <button id="sucesso_submit_mobile" data-button="" type="submit">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!--Final do Mobile-->
+
+
+<!--Inicio do Desktop-->
+
+<div class="sucesso_page_desktop">
+
+    <div class="separacao_lados_desktop">
+        <div class="lado_esquerdo_desktop">
+            <img id="img_sucesso_desktop" src="../img/contato2.png">
+        </div>
+        
+        <div class="lado_direito_desktop">
+
+                <div class="sucesso_container_desktop">
+                    <h1>Obrigado por entrar em contato.</h1>
+                    <h3>Recebemos sua mensagem e em breve retornaremos.</h3>
+
+
+                    <div class="btn_sucesso_desktop">
+                        <button id="sucesso_submit_desktop" data-button="" type="submit" value="Send Message" onclick="window.location.href = '/index'">Continuar Navegando</button>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+<!--Final do desktop-->
+
+</main>
+
+</body>
+
+<%- include('./footer.ejs') %>
+
+</html>

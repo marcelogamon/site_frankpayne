@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/acessoExclusivo.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <title>Frank Payne</title>
+</head>
+
+<%- include('./header.ejs') %>
+
+<body>
+
+<!--Inicio do mobile-->  
+
+    <div class="acessoExclusivo_page_mobile">
+
+        <div class="acessoExclusivo_container_mobile">
+            <h3>Faça seu login e tenha acesso exclusivo a todo o conteúdo. </h3>
+
+            <div class="btn_acessoExclusivo_mobile">
+                <button class="acessoExclusivo_submit_mobile" data-button="" type="submit">Login</button>
+            </div>
+            <h3>Se ainda não é um membro do universo Frank Payne cadastre-se abaixo.<br><br><br>É grátis!</h3>
+        </div>
+
+        <img id="cadastrar_mobile" src="../img/plus_white.png">
+    </div>
+    
+<!--Final do mobile-->
+
+<!--Inicio do desktop--> 
+
+
+<div class="acessoExclusivo_page_desktop">
+    <div class="acessoExclusivo_bloco_desktop">
+
+        <div class="acessoExclusivo_container_desktop">
+            <h3>Faça seu login e tenha acesso exclusivo a todo o conteúdo. </h3>
+
+            <div class="btn_acessoExclusivo_desktop">
+                <button class="acessoExclusivo_submit_desktop" data-button="" type="submit">Login</button>
+            </div>
+            <h3>Se ainda não é um membro do universo Frank Payne cadastre-se abaixo.<br><br>É grátis!</h3>
+        </div>
+
+        <img id="cadastrar_desktop" src="../img/plus_white.png">
+    </div>
+</div>
+
+<!--Final do desktop--> 
+
+</body>
+
+<%- include('./footer.ejs') %>
+
+</html>

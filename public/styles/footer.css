@@ -1,0 +1,232 @@
+
+/* Inicio do footer_mobile */
+
+.footer_desktop{
+    display: none;
+}
+
+.footer_mobile{
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+    width: 93%;
+    margin: 15px 3.5% 0 3.5%;
+}
+
+.footer_mobile > h2{
+    color: #FFFFFF;
+    font-size: 4.5vw;
+    text-align: center;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.footer_redes_mobile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-self: center;
+    margin: 4vw 14vw;
+}
+
+.facebook_mobile{
+    display: flex;
+    justify-content: center;
+}
+
+.facebook_mobile > img{ 
+    width: 60%;
+}
+
+.instagram_mobile{
+    display: flex;
+    justify-content: center;
+}
+
+.instagram_mobile > img{
+    width: 60%;
+}
+
+.twitter_mobile{
+    display: flex;
+    justify-content: center;
+}
+
+.twitter_mobile > img{ 
+    width: 60%;
+}
+
+.footer_mobile > h4{
+    color: #FFFFFF;
+    font-size: 2.5vw;
+    text-align: center;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+/* Final do footer_mobile */
+
+
+
+/* Inicio do footer_desktop */
+
+@media (min-width: 769px) {
+
+.footer_mobile{
+    display: none;
+}
+
+.footer_desktop{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 100%;
+    margin-top: 2vw;
+}
+
+.footer_desktop > h2{
+    color: #FFFFFF;
+    font-size: 1.4vw;
+    text-align: right;
+    font-weight: lighter;
+    font-style: normal;
+    font-family: 'Alegreya', serif;
+    margin: 0.5vw 5vw 0 0;
+}
+
+.footer_redes_contatos_desktop{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer_contatos_desktop{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-right: 2vw;
+}
+
+.footer_email_desktop{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_email_desktop > h3 {
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    text-align: left;
+    align-self: center;
+    font-weight:normal;
+    margin-right: 1vw;
+}
+
+.footer_email_desktop > img{
+    width: 1.7vw;
+    height: 1.7vw;
+    align-self: center;
+    margin: 0 1vw 0 0;
+}
+
+.footer_tel_desktop{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_tel_desktop > h3 {
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    text-align: left;
+    align-self: center;
+    font-weight:normal;
+    margin: 2vw 0 0 0;
+}
+
+.footer_tel_desktop > img{
+    width: 2.5vw;
+    height: 2.5vw;
+    align-self: center;
+    margin: 2vw 1vw 0 0;
+}
+
+.footer_redes_desktop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-self: center;
+    margin-top: 0.5vw;
+    margin-right: 1vw;
+}
+
+.facebook_desktop{
+    display: flex;
+    justify-content: center;
+    margin: 0 0.6vw;
+}
+
+.facebook_desktop > img{ 
+    height: 4vw;
+}
+
+.facebook_desktop > img:hover{
+    background: #395DA7;
+    border-radius: 50%;
+}
+
+.instagram_desktop{
+    display: flex;
+    justify-content: center;
+    margin: 0 0.6vw;
+}
+
+.instagram_desktop > img{
+    height: 4vw;
+}
+
+.instagram_desktop > img:hover{
+    background: #ff1111;
+    border-radius: 50%;
+}
+
+.twitter_desktop{
+    display: flex;
+    justify-content: center;
+    margin: 0 0.6vw;
+}
+
+.twitter_desktop > img{ 
+    height: 4vw;
+}
+
+.twitter_desktop > img:hover{
+    background: #395DA7;
+    border-radius: 50%;
+}
+
+.wattpad_desktop > img{ 
+    height: 4vw;
+}
+
+.wattpad_desktop > img:hover{
+    background: #FF4500;
+    border-radius: 50%;
+}
+
+
+.footer_desktop > h4{
+    color: #FFFFFF;
+    font-size: 1vw;
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+}
+
+/* Final do footer_desktop */

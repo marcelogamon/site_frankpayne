@@ -1,0 +1,509 @@
+body{
+    background: #020406;
+}
+
+.livro1_page_desktop{
+    display: none;
+}
+
+.livro1_page_mobile{
+    display: flex;
+    flex-direction: column;
+    background-color: #132634;
+    border-radius: 10px;
+    width: 93%;
+    margin: 75px 3.5% 0 3.5%;
+    justify-content: center;
+}
+
+.livro1_container_mobile{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.livro1_container_mobile > h1{
+    color: #BBA065;
+    font-size: 8.3vw;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-align: center;
+    padding: 0 25px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.livro1_container_mobile > h2{
+    color: #FFFFFF;
+    font-size: 4.3vw;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    text-align: center;
+    padding: 0 25px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.livro1_container_mobile > h3{
+    color: #FFFFFF;
+    font-size: 4.3vw;
+    font-weight:lighter;
+    text-align: center;
+    margin: 25px 0 20px 0;
+    padding: 0 25px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+#capa_mobile{
+    width: 50vw;
+    align-self: center;
+}
+
+#formatos_links_mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ebook_submit_mobile{
+    border-radius: 30px;
+    background-color: #d4af37 ;
+    width: 100%;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: 0px;
+    display: block;
+    font-size: 5vw;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.ebook_submit_mobile:hover{
+    transition: all 0.3s;
+    background-color: #f9a109de ;
+}
+
+.capaDura_submit_mobile{
+    border-radius: 30px;
+    background-color: #d4af37 ;
+    width: 100%;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: 0px;
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size: 5vw;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.capaDura_submit_mobile:hover{
+    transition: all 0.3s;
+    background-color: #f9a109de ;
+}
+
+#span1_mobile{
+    color: #FFFFFF;
+    font-size: 4.6vw;
+    font-weight:lighter;
+    text-align: center;
+    margin: 25px 0 30px 0;
+    padding: 0 25px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+#a_download_icon_mobile{
+    width: 18vw;
+    align-self: center;
+}
+
+#span2_mobile{
+    color: #FFFFFF;
+    font-size: 3.5vw;
+    font-weight:lighter;
+    text-align: center;
+    margin: 30px 0 35px 0;
+    padding: 0 50px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+#spans_mobile{
+    display: flex;
+    flex-direction: row;
+}
+
+#span3_mobile{
+    color: #FFFFFF;
+    font-size: 3.4vw;
+    font-weight: bold;
+    text-align: left;
+    width: 55%;
+    margin: 1px 0 0 0;
+    padding-left: 10px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+
+}
+
+#span4_mobile{
+    color: #FFFFFF;
+    font-size: 3vw;
+    font-weight:normal;
+    text-align: left;
+    width: 60%;
+    padding-right: 5px;
+    margin: 1px 0 0 0;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+#span5_mobile{
+    color: #FFFFFF;
+    font-size: 4.5vw;
+    font-weight:bold;
+    font-style: italic;
+    text-align: center;
+    align-self: center;
+    width: 80%;
+    margin: 50px 0 30px 0;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+#sinopse_mobile{
+    color: #FFFFFF;
+    font-size: 3.5vw;
+    font-weight:lighter;
+    text-align: justify;
+    align-self: center;
+    width: 80%;
+    margin-bottom: 20px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+/*Final do Mobile*/
+
+
+
+
+/*Inicio do Desktop*/
+
+@media (min-width: 769px) {
+
+.livro1_page_mobile{
+    display: none;
+}
+
+body{
+    background-image: url(../img/img_header.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+.livro1_page_desktop{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(41, 41, 41, 0.699);
+    margin: 10vw 3.5vw 0 3.5vw;
+    padding: 2vw;
+}
+
+.separacao_lados{
+    display: flex;
+    flex-direction: row;
+}
+
+.lado_esquerdo{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+#capa_desktop{
+    width: 30vw;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.lado_esquerdo > h3{
+    color: #FFFFFF;
+    font-size: 1.5vw;
+    font-weight:lighter;
+    text-align: center;
+    margin: 25px 0 20px 0;
+    padding: 0 25px;
+}
+
+#spans_desktop{
+    display: flex;
+    flex-direction: row;
+}
+
+#span3_desktop{
+    color: #FFFFFF;
+    font-size: 1vw;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px 0 0 0;
+    padding-left: 4vw;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+
+}
+
+#span4_desktop{
+    color: #FFFFFF;
+    font-size: 1.1vw;
+    font-weight:normal;
+    text-align: left;
+    margin: 10px 0 0 15px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.lado_direito{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
+
+.lado_direito > h1{
+    color: #BBA065;
+    font-size: 4vw;
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.lado_direito > h2{
+    color: #FFFFFF;
+    font-size: 1.6vw;
+    font-family: 'Alegreya', serif;
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.lado_direito > h3{
+    color: #FFFFFF;
+    font-size: 1.5vw;
+    font-weight:lighter;
+    text-align: center;
+    margin: 25px 0 5vw 0;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+#span2_desktop{
+    color: #FFFFFF;
+    font-size: 1.4vw;
+    font-weight:lighter;
+    text-align: center;
+    margin: 0px 0 2vw 0;
+    padding: 0 50px 0 70px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+#formatos_links_desktop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#formatos_links_desktop > h3{
+    color: #FFFFFF;
+    font-size: 1.5vw;
+    font-weight:lighter;
+    text-align: center;
+    margin: 5vw 0 1vw 0;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.ebook_submit_desktop{
+    border-radius: 30px;
+    background-color: #d4af37 ;
+    width: 13vw;
+    padding: 10px 20px;
+    align-self: center;
+    color: #ffffff;
+    border: 0px;
+    display: block;
+    font-size: 1.3vw;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.ebook_submit_desktop:hover{
+    transition: all 0.3s;
+    background-color: #09a1f9de ;
+}
+
+.capaDura_submit_desktop{
+    border-radius: 30px;
+    background-color: #d4af37 ;
+    width: 13vw;
+    padding: 10px 20px;
+    align-self: center;
+    color: #ffffff;
+    border: 0px;
+    display: block;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    font-size: 1.3vw;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.capaDura_submit_desktop:hover{
+    transition: all 0.3s;
+    background-color: #09a1f9de ;
+}
+
+#span1_desktop{
+    color: #FFFFFF;
+    font-size: 1.3vw;
+    font-weight:lighter;
+    text-align: center;
+    margin: 25px 0 30px 0;
+    padding: 0 50px 0 70px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+#a_download_icon_desktop{
+    width: 5vw;
+    align-self: center;
+    cursor: pointer;
+}
+
+#download_icon_desktop:hover{
+    background-color: #d4af37 ;
+    border-radius: 50%;
+}
+
+
+.info_livro_desktop{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8vw;
+    padding: 0 1vw;
+}
+
+#span5_desktop{
+    color: #FFFFFF;
+    font-size: 2vw;
+    font-weight:bold;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 2vw;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+#sinopse_desktop{
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    font-weight:lighter;
+    text-align: justify;
+    align-self: center;
+    margin-bottom: 20px;
+    padding: 0 1vw;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+}
+
+/*Final do Desktop*/

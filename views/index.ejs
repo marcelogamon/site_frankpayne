@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <title>Frank Payne</title>
+</head>
+
+        <%- include('./header.ejs') %>
+
+<body>
+        <div class="banner_mobile">
+                <img src="../img/img_header_baixo.png">
+        </div>
+        
+        <div class="banner_bemVindo_desktop">
+                <div class="bemVindoContainer_desktop">
+                <div class="bv_texto_desktop">
+                        <h1>Bem Vindos</h1>
+                        <h2>Faça seu cadastro e tenha acesso a conteúdos exclusivos sobre os livros, personagens, promoções e novidades do universo fantástico de Frank Payne</h2>
+                </div>
+                <div class="bv_cadastro_desktop">
+                        <h3>Cadastre-se</h3>
+                        <img src="../img/login.png" onclick="window.location.href = '/erro404'">
+                </div>
+                </div>
+        </div>
+        
+        <div class="bem-vindos_mobile">
+                <div class="bv_cadastro">
+                <h3>Cadastre-se</h3>
+                <img src="../img/login.png">
+                </div>
+                <div class="bv_texto">
+                <h1>Bem-vindos</h1>
+                <h2>Faça seu cadastro e tenha acesso a conteúdos exclusivos sobre os livros, personagens, promoções e novidades do universo fantástico de Frank Payne</h2>
+                </div>
+        </div>
+        
+        <div class="livros_mobile">
+                <div class="livro1_img_mobile">
+                <img src="../img/livro1_3d.jpg">
+                </div>
+                <div class="livro1_info_mobile">
+                <h1>Livro 1:  Frank Payne e a Caverna Misteriosa</h1>
+                <p>Até onde você iria para encontrar seu pai desaparecido e dado como morto há cinco anos, mas que acabara de se comunicar com você de uma forma totalmente imprevisível?</p>
+                <p>Frank Payne, um garoto de 17 anos, acabou de receber do mar uma enigmática pedra que faz sua vida virar de cabeça para baixo, após descobrir algumas inscrições em uma língua desconhecida indicando o paradeiro de seu pai.</p>
+                <p>Junto de sua amiga Barbara e seu avô Walter partem para a ilha de Guam, no extremo pacífico, onde encontram um submarino que os levam às profundezas do oceano, precisamente na Fossa das Marianas. Além de ser um local inóspito e habitado por estranhas criaturas, a região ainda esconde uma secreta passagem para uma caverna um tanto misteriosa.</p>
+                <p>É assim, entre enigmas e aventuras sinistras que conhecem o verdadeiro poder da lendária pedra da água e as intenções de um temível vilão, que fará de tudo para encontrar o outro pedaço dessa relíquia que está com Frank e junta-la às outras três (fogo, ar e terra) para colocar seu plano maligno em prática, destruir o planeta.</p>
+                <p>Pegue sua mochila, seu passaporte e embarque junto nessa eletrizante e fantástica aventura e descubra os maiores segredos da humanidade.</p>
+                </div>
+                <a href="/livro1"><button class="livro1_saiba_mais_mobile">Saiba Mais</button></a>
+        </div>
+        
+        <div class="livros_desktop">
+                <div class="livro1_img_desktop">
+                <img src="../img/capa_livro1.jpg">
+                </div>
+                <div class="livro1_info_desktop">
+                <h1>Livro 1:  Frank Payne e a Caverna Misteriosa</h1>
+                <p>Até onde você iria para encontrar seu pai desaparecido e dado como morto há cinco anos, mas que acabara de se comunicar com você de uma forma totalmente imprevisível?</p>
+                <p>Esse é o maior mistério que Frank Payne, um garoto de 17 anos irá enfrentar. Com seus fiéis companheiros embarcarão juntos nessa incrível jornada, repleta de segredos, magias e aventuras de tirar o fôlego que mudará completamente suas vidas para sempre.</p>
+                <p>Prenda a respiração e venha descobrir o que o destino havia reservado para o destemido e valente garoto.</p>
+                <div id="livro1_saiba_mais_desktop"><button class="livro1_saiba_mais_desktop"  onclick="window.location.href = '/livro1'">Saiba Mais</button></div>
+                </div>
+        </div>
+
+        <%- include('./personPageMobile.ejs') %>
+        <%- include('./personPageDesktop.ejs') %>
+        
+        <%- include('./footer.ejs') %>
+
+</body>
+</html>

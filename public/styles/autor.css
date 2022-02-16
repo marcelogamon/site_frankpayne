@@ -1,0 +1,221 @@
+/*Inicio do Mobile*/
+
+body{
+    background: #020406;
+}
+
+.autor_page_desktop{
+    display: none;
+}
+
+.autor_page_mobile{
+    display: flex;
+    flex-direction: column;
+    background-color: #132634;
+    border-radius: 10px;
+    width: 93%;
+    margin: 75px 3.5% 0 3.5%;
+    justify-content: center;
+}
+
+.autor_container_mobile{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.autor_container_mobile > h1{
+    color: #BBA065;
+    font-size: 8.3vw;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-align: center;
+    padding: 0 25px;
+    margin-bottom: 20px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+#fotoMarceloGamon_mobile{
+    width: 50vw;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+#span_mobile{
+    color: #FFFFFF;
+    font-size: 4.3vw;
+    font-weight:lighter;
+    text-align: justify;
+    margin: 0px 0 20px 0;
+    padding: 0 25px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+/*Final do Mobile*/
+
+
+
+
+/*Inicio do Desktop*/
+
+@media (min-width: 769px) {
+
+.autor_page_mobile{
+    display: none;
+}
+
+body{
+    background-image: url(../img/img_header.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+.autor_page_desktop{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(41, 41, 41, 0.699);
+    margin: 10vw 15vw 0 15vw;
+    padding: 2vw;
+}
+
+.separacao_lados_desktop{
+    display: flex;
+    flex-direction: row;
+}
+
+.lado_esquerdo_desktop{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.lado_esquerdo_desktop h4{
+    color: #FFFFFF;
+    font-weight:lighter;
+    text-align: center;
+    margin: 3vw 0 0 0;
+    padding: 0 0px 0 0px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+#fotoMarceloGamon_desktop{
+    width: 20vw;
+    align-self: left;
+}
+
+
+.lado_direito_desktop{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+
+.lado_direito_desktop > h1{
+    color: #BBA065;
+    font-size: 3vw;
+    margin: 0 0 1.5vw 0;
+    font-family: 'Alegreya', serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+
+#span_desktop{
+    color: #FFFFFF;
+    font-size: 1.3vw;
+    font-weight:lighter;
+    text-align: justify;
+    margin: 0px 0 1.5vw 0;
+    padding: 0 50px 0 50px;
+    text-shadow: 
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;    
+}
+
+.autor_redes_desktop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-self: center;
+    margin-top: 0.5vw;
+    margin-right: 1vw;
+}
+
+.facebook_desktop{
+    display: flex;
+    justify-content: center;
+    margin: 0 0.6vw;
+}
+
+.facebook_desktop > img{ 
+    height: 4vw;
+}
+
+.facebook_desktop > img:hover{
+    background: #395DA7;
+    border-radius: 50%;
+}
+
+.instagram_desktop{
+    display: flex;
+    justify-content: center;
+    margin: 0 0.6vw;
+}
+
+.instagram_desktop > img{
+    height: 4vw;
+}
+
+.instagram_desktop > img:hover{
+    background: #ff1111;
+    border-radius: 50%;
+}
+
+.twitter_desktop{
+    display: flex;
+    justify-content: center;
+    margin: 0 0.6vw;
+}
+
+.twitter_desktop > img{ 
+    height: 4vw;
+}
+
+.twitter_desktop > img:hover{
+    background: #395DA7;
+    border-radius: 50%;
+}
+
+.wattpad_desktop > img{ 
+    height: 4vw;
+}
+
+.wattpad_desktop > img:hover{
+    background: #FF4500;
+    border-radius: 50%;
+}
+
+
+}
+
+/*Final do Desktop*/
